@@ -1,32 +1,78 @@
-# Prerequisites
+# === GitHub C++ Template ===
 *.d
-
-# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
-# Precompiled Headers
 *.gch
 *.pch
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
+
+# === Visual Studio ===
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+*.ncb
+*.log
+*.tlog
+*.ipch
+*.aps
+*.opensdf
+*.cache
+
+# === CMake ===
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
+
+# === Xcode (optional if cross-platform) ===
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+
+# === macOS/Linux ===
+.DS_Store
+*.swp
+*.swo
+
+# === Android (optional if using Android targets) ===
+*.apk
+*.aab
+*.dex
+.gradle/
+.idea/
+local.properties
+*.iml
+build/
+
+# === Axmol specific (optional cleanup) ===
+*.tmp
+*.bak
+*.log
+*.vsidx
+
+# === Node/npm or Python (if used for tools) ===
+node_modules/
+dist/
+*.pyc
+__pycache__/
